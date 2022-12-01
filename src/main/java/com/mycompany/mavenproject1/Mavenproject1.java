@@ -13,5 +13,10 @@ public class Mavenproject1 {
 
     public static void main(String[] args) {
         System.out.println("Cao svete sadasda ");
+        napisiNesto();
+    }
+
+    private static void napisiNesto() {
+        System.out.println("Nesto");
     }
 }
