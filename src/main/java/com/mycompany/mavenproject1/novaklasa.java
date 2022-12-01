@@ -9,6 +9,32 @@ package com.mycompany.mavenproject1;
  * @author Mihailo
  */
 public class novaklasa {
-    int nesto;
-    String nestoNesto;
+    private int nesto;
+    private String nestoNesto;
+
+    public novaklasa() {
+    }
+
+    public novaklasa(int nesto, String nestoNesto) {
+        this.nesto = nesto;
+        this.nestoNesto = nestoNesto;
+    }
+
+    public String getNestoNesto() {
+        return nestoNesto;
+    }
+
+    public void setNestoNesto(String nestoNesto) {
+        this.nestoNesto = nestoNesto;
+    }
+
+    public int getNesto() {
+        return nesto;
+    }
+
+    public void setNesto(int nesto) {
+        this.nesto = nesto;
+    }
+    
+  
 }
